@@ -1,0 +1,13 @@
+.git/
+.github/
+
+Docs/
+Database/
+Samples/
+images/
+exports/
+
+README.md
+LICENSE
+.gitignore
+.claspignore
