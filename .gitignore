@@ -1,0 +1,104 @@
+# Operating System Files
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+---
+
+# Editor Files
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+---
+
+# Environment Files
+
+.env
+.env.local
+.env.*.local
+
+---
+
+# Logs
+
+*.log
+logs/
+
+---
+
+# Temporary Files
+
+*.tmp
+*.temp
+temp/
+
+---
+
+# Build Files
+
+build/
+dist/
+out/
+
+---
+
+# Dependencies
+
+node_modules/
+
+---
+
+# Python Files
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+---
+
+# Database Files
+
+*.db
+*.sqlite
+*.sqlite3
+
+---
+
+# Backup Files
+
+*.bak
+*.backup
+
+---
+
+# Exported Files
+
+exports/*
+!exports/README.md
+
+---
+
+# Generated Files
+
+generated/
+.cache/
