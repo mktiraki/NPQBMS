@@ -1,7 +1,7 @@
 function writeAudit(action, status, remarks) {
 
   const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const sheet = ss.getSheetByName("Audit_Log");
+  const sheet = ss.getSheetByName(QB.SHEETS.AUDIT);
 
   if (!sheet) {
     throw new Error("audit log sheet not found");

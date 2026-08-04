@@ -45,7 +45,7 @@ function findExactDuplicate(questionText){
     SpreadsheetApp
     .getActive()
     .getSheetByName(
-      "Questions"
+      QB.SHEETS.QUESTIONS
     );
 
 
